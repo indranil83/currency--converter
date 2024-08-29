@@ -1,12 +1,24 @@
 .container {
     width: 300px;
     margin: auto;
+    margin-top: 10px;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-color: rgb(15, 135, 135);
+    background-color: transparent;
   }
+  h2 {
+    font-size: 26px; 
+    color:#af4d98; 
+    text-align: center; 
+    margin-bottom: 20px; 
+    font-weight: bold; 
+    letter-spacing: 1.5px; 
+    text-shadow: 2px 2px 4px #af4d98; 
+  }
+  
+
   
   .amount, .dropdown {
     margin-bottom: 20px;
@@ -15,10 +27,11 @@
   .amount p, .dropdown p {
     margin: 0;
     font-weight: bold;
+    
   }
   
   .amount-input {
-    width: 100%;
+    width: 92%;
     padding: 8px;
     margin-top: 5px;
   }
@@ -35,18 +48,47 @@
   button {
     width: 100%;
     padding: 10px;
-    background-color: #00ff88;
+    background-color: #af4d98;
     color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-size: 1rem;
   }
   
   button:hover {
-    background-color: #00b312;
+    background-color: #b30095;
   }
   
   .result {
     margin-top: 20px;
     font-weight: bold;
   }
+  .flag-icon {
+    width: 32px; 
+    height: 24px;
+    margin-left: 10px; 
+    border-radius: 4px; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border: 1px solid #cccccc;
+  }
+  
+  .dropdown-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ensure the dropdown and flag are spaced nicely */
+  }
+  
+  .choose {
+    width: 85%; /* Adjust width to make space for the flag */
+  }
+  
+  .flag-placeholder {
+    width: 32px;
+    height: 24px;
+    margin-left: 10px;
+    background-color: #e0e0e0; /* Placeholder when no flag is selected */
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
