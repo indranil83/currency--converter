@@ -1,0 +1,52 @@
+.container {
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgb(15, 135, 135);
+  }
+  
+  .amount, .dropdown {
+    margin-bottom: 20px;
+  }
+  
+  .amount p, .dropdown p {
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .amount-input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+  }
+  
+  .select-container {
+    margin-top: 5px;
+  }
+  
+  .choose {
+    width: 100%;
+    padding: 8px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #00ff88;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #00b312;
+  }
+  
+  .result {
+    margin-top: 20px;
+    font-weight: bold;
+  }
